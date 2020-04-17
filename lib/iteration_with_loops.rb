@@ -4,6 +4,7 @@ def join_nested_strings(src)
   solution = ""
   src.each do |item|
     puts item
+    puts item.is_a? String
     if item.is_a? String
       solution += item
     end
