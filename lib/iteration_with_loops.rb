@@ -3,6 +3,7 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   solution = ""
   src.each do |item|
+    puts item
     if item.is_a? String
       solution += item
     end
