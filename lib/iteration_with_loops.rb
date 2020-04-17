@@ -5,9 +5,9 @@ def join_nested_strings(src)
   src.each do |item|
     item.each do |content|
       if content.is_a? String
-        solution += content
+        solution += content + " "
       end
     end
   end
-  solution
+  solution.pop()
 end
