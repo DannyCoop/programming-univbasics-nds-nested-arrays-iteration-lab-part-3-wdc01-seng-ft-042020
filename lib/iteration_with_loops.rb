@@ -9,5 +9,5 @@ def join_nested_strings(src)
       end
     end
   end
-  solution.pop
+  solution.strip
 end
